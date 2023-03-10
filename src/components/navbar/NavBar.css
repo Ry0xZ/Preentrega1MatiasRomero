@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  min-height: 60px;
+  display: flex;
+}
+
+.navbar {
+  width: 100%;
+  height: 100%;
+  margin-top: 1%;
+  margin-left: 30%;
+}
+
+.navbar-nav {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-item {
+  margin: 8px;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+.nav-link:hover {
+  text-decoration-line: overline;
+  color: white !important;
+}

@@ -1,0 +1,10 @@
+.containerBrand {
+  width: 20%;
+  heigh: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.containerBrand img {
+  transform: scale(0.25);
+}

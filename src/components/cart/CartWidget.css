@@ -1,0 +1,15 @@
+.containerCart {
+  list-style: none;
+  width: 30%;
+  heigh: 100%;
+}
+
+#botonCarrito {
+  border: none;
+  outline: none;
+  background-color: #ffffff00;
+}
+
+#contadorCarrito {
+  color: red;
+}
