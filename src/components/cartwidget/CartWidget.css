@@ -4,12 +4,12 @@
   heigh: 100%;
 }
 
-#botonCarrito {
+#cartButton {
   border: none;
   outline: none;
   background-color: #ffffff00;
 }
 
-#contadorCarrito {
+#cartCounter {
   color: red;
 }

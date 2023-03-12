@@ -5,7 +5,7 @@ const Brand = () => {
   return (
     <div>
       <a href="#">
-        <img src={brand} alt="Rx Store" title="Rx Store"></img>
+        <img src={brand} alt="logo de la tienda Rx Store" title="Rx Store"/>
       </a>
     </div>
   );
