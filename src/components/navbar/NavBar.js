@@ -1,6 +1,8 @@
+import React from "react";
 import "./NavBar.css";
 import Brand from "../brand/Brand";
 import Cart from "../cartwidget/CartWidget";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -8,10 +10,10 @@ const NavBar = () => {
       <div className="containerBrand">
         <Brand />
       </div>
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
@@ -19,34 +21,34 @@ const NavBar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <Link to="/procesador" className="nav-link active">
                   Procesadores
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+              <li className="nav-item">
+                <Link to="/memoria" className="nav-link active">
                   Memoria Ram
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                  Placas de video
-                </a>
+              <li className="nav-item">
+                <Link to="/placa" className="nav-link active">
+                  Placas de Video
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+              <li className="nav-item">
+                <Link to="/motherboard" className="nav-link active">
                   Motherboards
-                </a>
+                </Link>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+              <li className="nav-item">
+                <Link to="/fuente" className="nav-link active">
                   Fuentes
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
