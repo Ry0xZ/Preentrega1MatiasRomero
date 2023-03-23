@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "nombre": "Samsung F24T35 led 24",
+    "precio": 55230,
+    "categoria": "monitor",
+    "descripcion": "Diseño minimalista, máxima concentración. La pantalla sin bordes en tres de sus lados aporta una estética clara y moderna a cualquier entorno de trabajo. En una entorno de varios monitores, las pantallas se alinean a la perfección para una vista prácticamente sin espacios y sin distracciones.",
+    "cantidad": 1,
+    "img": "https://d3pbw4826yao71.cloudfront.net/010503/1597812467703_b_T35F_005_RPerspective_Black.jpg",
+    "stock": "10"
+  },
+  {
+    "id": 7,
+    "nombre": "Logitech G Series Lightspeed G502 negro",
+    "precio": 14049,
+    "categoria": "mouse",
+    "descripcion": "Diseñado para un desempeño avanzado en los juegos. G502 HERO cuenta con un sensor de juegos HERO 25K con seguimiento de precisión submicrométrica, LIGHTSYNC RGB personalizable, perfiles integrados, pesos reposicionables y mucho más.",
+    "cantidad": 1,
+    "img": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/713BtzRtsVS.jpg",
+    "stock": "10"
+  },
+  {
+    "id": 6,
+    "nombre": "Logitech Serie G Prodigy G213 QWERTY RGB",
+    "precio": 9390,
+    "categoria": "teclado",
+    "descripcion": "Durabilidad apta para los requisitos de los videojuegos. Los interruptores de tecla Mech-Dome táctiles son resistentes a salpicaduras. Iluminación RGB LIGHTSYNC personalizable. Reposamanos integrado y patas ajustables. Controles multimedia específicos.",
+    "cantidad": 1,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_856941-MLA45319464315_032021-O.webp",
+    "stock": "10"
+  },
+  {
+    "id": 2,
+    "nombre": "Philips V 193V5LHSB2 LCD 18.5",
+    "precio": 32499,
+    "categoria": "monitor",
+    "descripcion": "Con el Monitor Philips 193V5LHSB2/77 de 18.5″ disfruta de imágenes LED realistas en esta pantalla que está equipada con HDMI, lo que la convierte en una opción fantástica.",
+    "cantidad": 1,
+    "img": "https://www.tradeinn.com/f/13745/137457858_2/philips-193v5lsb2-18.5-led-hd-monitor.jpg",
+    "stock": "10"
+  },
+  {
+    "id": 8,
+    "nombre": "Razer DeathAdder Essential negro",
+    "precio": 5994,
+    "categoria": "mouse",
+    "descripcion": "El Razer DeathAdder Essential conserva la forma ergonómica clásica que ha sido un sello distintivo de las generaciones anteriores de Razer DeathAdder. Su cuerpo elegante y distintivo está diseñado para brindar comodidad, lo que le permite mantener altos niveles de rendimiento durante largas maratones de juego, para que nunca flaquee en el fragor de la batalla.",
+    "cantidad": 1,
+    "img": "https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71km4IeNNcL.jpg",
+    "stock": "10"
+  },
+  {
+    "id": 3,
+    "nombre": "Samsung Odyssey G3 F24G35T LCD 24",
+    "precio": 60300,
+    "categoria": "monitor",
+    "descripcion": "Listo para conquistar enemigos, retrasos y desenfoque. Una frecuencia de actualización más rápida actualiza las imágenes de la pantalla con mayor frecuencia cada segundo, lo que permite un juego más fluido que se mantiene al día incluso con los jugadores más rápidos. La frecuencia de actualización de 144 Hz elimina el retraso y el desenfoque de movimiento para un juego emocionante con una acción ultra suave.",
+    "cantidad": 1,
+    "img": "https://image-us.samsung.com/SamsungUS/home/computing/monitors/lf27g35tfwnxza/gallery/G35TF_017_Swivel2_Black.jpg",
+    "stock": "10"
+  },
+  {
+    "id": 4,
+    "nombre": "HyperX Alloy Origins 60 QWERTY RGB",
+    "precio": 13199,
+    "categoria": "teclado",
+    "descripcion": "El HyperX Alloy Origins™ 60 es un teclado sumamente portátil con un factor de forma del 60 % que le brinda más espacio para movimientos de barrido del mouse. Cuenta con un cuerpo duradero de aluminio completo y conmutadores HyperX confiables equilibrados para velocidad y rendimiento que están clasificados para soportar 80 millones de pulsaciones de teclas. Las teclas PBT de doble disparo estándar tienen funciones secundarias impresas para que pueda ubicar rápidamente la funcionalidad adicional. Deje que su estilo brille con el diseño LED expuesto de los interruptores HyperX y los sorprendentes efectos de iluminación. Personaliza aún más tu teclado con macros, perfiles de iluminación personalizados y más con el software HyperX NGENUITY.",
+    "cantidad": 1,
+    "img": "http://cdn.shopify.com/s/files/1/0564/3612/9997/products/hyperx_alloy_origins_60_ar_angle_2.jpg?v=1666377243",
+    "stock": "10"
+  },
+  {
+    "id": 5,
+    "nombre": "Redragon Shrapnel K589RGB QWERTY RGB",
+    "precio": 9799,
+    "categoria": "teclado",
+    "descripcion": "El Shrapnel es un teclado RGB mecánico low profile de pura cepa, con una altura total de sólo 12 mm. Su cara superior es de aluminio cepillado, lo que le confiere una solidez extraordinaria y lo hace muy agradable al tacto. Está equipado con interruptores Redragon Red o Blue: ambos, de perfil bajo y muy resistentes, con una durabilidad de 50 millones de clics y construcción tipo box, anti polvo y anti salpicaduras.",
+    "cantidad": 1,
+    "img": "https://cdn.shopify.com/s/files/1/2695/9506/products/K589-6_1024x1024@2x.png?v=1561533750",
+    "stock": "10"
+  },
+  {
+    "id": 9,
+    "nombre": "Mouse Gamer HyperX Pulsefire Core RGB",
+    "precio": 2899,
+    "categoria": "mouse",
+    "descripcion": "HyperX Pulsefire Core ™ ofrece lo esencial para los jugadores que buscan un ratón para juegos RGB sólido, cómodo y con cable. El sensor óptico Pixart 3327 brinda a los jugadores un seguimiento preciso y suave sin aceleración de hardware, y tiene configuraciones de DPI nativas de hasta 6200 DPI. El Pulsefire Core, de diseño ergonómico, tiene agarres laterales texturizados para un agarre cómodo y antideslizante, y su forma simétrica es adecuada para agarre tanto en la palma como en la garra. Cuenta con interruptores de alta calidad con una respuesta táctil nítida y clasificada para hasta 20 millones de clics. Personalice la iluminación, la configuración de PPP y las macros para 7 botones programables con el software HyperX NGenuity y configure el mouse de la forma que desee. Los patines grandes de Pulsefire Core ayudan a proporcionar una orientación precisa al brindarle un deslizamiento suave y controlado al mover el mouse.",
+    "cantidad": 1,
+    "img": "https://www.venex.com.ar/products_images/1547144217_big_hxmc004b.jpg",
+    "stock": "10"
+  }
+]

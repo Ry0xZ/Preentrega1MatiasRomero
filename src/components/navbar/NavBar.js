@@ -26,28 +26,23 @@ const NavBar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link to="/procesador" className="nav-link active">
-                  Procesadores
+                <Link to="/" className="nav-link active">
+                  Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/memoria" className="nav-link active">
-                  Memoria Ram
+                <Link to="/category/monitor" className="nav-link active">
+                  Monitores
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/placa" className="nav-link active">
-                  Placas de Video
+                <Link to="/category/teclado" className="nav-link active">
+                  Teclados
                 </Link>
               </li>
               <li className="nav-item">
-                <Link to="/motherboard" className="nav-link active">
-                  Motherboards
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link to="/fuente" className="nav-link active">
-                  Fuentes
+                <Link to="/category/mouse" className="nav-link active">
+                  Mouse
                 </Link>
               </li>
             </ul>
