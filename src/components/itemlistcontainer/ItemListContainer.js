@@ -1,28 +1,29 @@
 import "./ItemListContainer.css";
-import stock from "../../stock/stock.json";
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
 import ItemList from "../ItemList";
+import { collection, getDocs, query, where } from "firebase/firestore";
+import { db } from "../../firebase/Firebase";
+import { useParams } from "react-router-dom";
 
 const ItemListContainer = () => {
   const [item, setItem] = useState([]);
-  const { id } = useParams();
+  const {id} = useParams()
 
   useEffect(() => {
-    const promesa = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(id ? stock.filter((item) => item.categoria === id) : stock);
-      }, 1000);
-    });
-
-    promesa.then((data) => {
-      setItem(data);
-    });
+    const queryCollection = collection (db, 'items');
+    if(id){
+      const queryFilter = query(queryCollection, where ('category', '==', id))
+      getDocs(queryFilter)
+      .then(res=>setItem(res.docs.map(i=>({id: i.id, ...i.data()}))))
+    }else {
+      getDocs(queryCollection)
+      .then(res=>setItem(res.docs.map(i=>({id: i.id, ...i.data()}))))
+    }
   }, [id]);
 
   return (
     <>
-      <div class="container d-flex justify-content-center h-100 aling-items-center">
+      <div className="container d-flex justify-content-center h-100 aling-items-center">
         <ItemList item={item} />
       </div>
     </>

@@ -1,22 +1,17 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
-import stock from "./../stock/stock.json";
+import { doc, getDoc } from "firebase/firestore";
+import { db } from "../firebase/Firebase";
 
 const ItemDetailContainer = () => {
   const [item, setItem] = useState([]);
   const { id } = useParams();
 
   useEffect(() => {
-    const promesa = new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(stock.find((item) => item.id === parseInt(id)));
-      }, 500);
-    }, []);
-    console.log(item);
-    promesa.then((data) => {
-      setItem(data);
-    });
+    const queryDoc = doc(db, 'items', id)
+    getDoc(queryDoc)
+    .then(res=>setItem({id: res.id, ...res.data()}))
   }, [id]);
 
   return (
